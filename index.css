@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body {
+  font-size: 1.2rem;
+  padding: 10px;
+  color: #222;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.base {
+  background-color: #eee;
+}
+
+.menu-list {
+  font-size: 0;
+  width: 100%;
+  padding: 5px;
+}
+
+.menu-list .menu-item {
+  font-size: 1.2rem;
+  display: inline-block;
+
+  padding: 10px;
+  border: 1px solid #000;
+  margin: 5px;
+}
